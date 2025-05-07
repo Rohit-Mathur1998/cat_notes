@@ -38,9 +38,6 @@ cd cat-notes-backend
 2. Install Dependencies
 Once you've cloned the repository, you need to install the project dependencies. Inside the project directory, run the following command:
 
-bash
-Copy
-Edit
 npm install
 This will install all the necessary libraries and packages listed in the package.json file, including:
 
@@ -57,9 +54,6 @@ To configure your environment, you'll need to create a .env file in the root dir
 
 Create a .env file in the root directory and add the following content:
 
-bash
-Copy
-Edit
 MONGO_URI=mongodb://localhost:27017/catnotes
 PORT=5000
 MONGO_URI: The connection string to your MongoDB instance. By default, this is set to a local MongoDB instance running on localhost:27017, with a database called catnotes. If you're using MongoDB Atlas or another service, replace this with your own MongoDB URI.
@@ -68,10 +62,6 @@ PORT: The port the server will run on. The default is 5000, but you can change i
 
 4. Start the Server
 After setting up the environment variables and installing the dependencies, you can start the server by running the following command:
-
-bash
-Copy
-Edit
 npm start
 This will start the backend server, and it will be available at http://localhost:5000.
 
